@@ -6,49 +6,80 @@
     <h2>The actual good stuff is coming soon</h2>
     <h3>for now enjoy the Avatars</h3>
     <style>
-      figure{
+      figure {
         text-align: center;
       }
-      
+
       .korra {
+        figcaption {
+          margin-top: 8px;
+          font-size: 16px;
+        }
         width: 1000px;
-        height: 720px;
-        border-radius: 500px;
+        height: 1000px;
+        border-radius: 1000px;
         float: left;
-        margin-right: 100px;
+        margin-right: 1000px;
       }
     </style>
     <style>
-
       .Aang {
+        figcaption {
+          margin-bottom: 8px;
+          font-size: 16px;
+        }
         width: 1000px;
-        height: 720px;
-        border-radius: 500px;
+        height: 1000px;
+        border-radius: 1000px;
         float: right;
-        margin-left: 100px;
+        margin-left: 1000px;
       }
-     
-      
+
+      body {
+        margin: 0;
+      }
+
+      .background {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+
+        background-image: url(images/wp2495144-2911781364.jpg);
+        background-size: cover;
+        background-position:center ;
+
+        filter: blur(20px);
+        transform: scale(1.05);
+        z-index: -1;
+      }
+
+      .content {}
     </style>
   </head>
 
   <body>
-  <figure>
-    <img
-      class="korra"
-      src="images/avatar-the-legend-of-korra-4k_bG1qZWyUmZqaraWkpJRobWllrWdma2U-2446021766.jpg"
-      alt="picture of Avatar Korra"
-    />
-    <figcaption><b>Avatar Korra The last Avatar</b>    
-    </figcaption>
-  </figure>
-  <figure>
-    <img
-      class="Aang"
-      src="images/avatar-aang-the-last-airbender-333@5@d-pc-4k-2359938566.jpg"
-      alt="picture of Avatar Aang"
-    />
-    <figcaption> <b>Avatar Aang: The Last Airbender </b></figcaption>
-  </figure>
+    <figure>
+      <img
+        class="korra"
+        src="images/avatar-the-legend-of-korra-4k_bG1qZWyUmZqaraWkpJRobWllrWdma2U-2446021766.jpg"
+        alt="picture of Avatar Korra"
+        width="1000px"
+      />
+      <figcaption><b>Avatar Korra The last Avatar</b></figcaption>
+    </figure>
+    <figure>
+      <img
+        class="Aang"
+        src="images/avatar-aang-the-last-airbender-333@5@d-pc-4k-2359938566.jpg"
+        alt="picture of Avatar Aang"
+        width="1000px"
+      />
+      <figcaption><b>Avatar Aang: The Last Airbender </b></figcaption>
+    </figure>
+    <div class="background"></div>
+    
+    <div class="content"></div>
   </body>
 </html>
