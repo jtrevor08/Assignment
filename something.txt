@@ -1,0 +1,4 @@
+I write this to show how I wrote the .html file index.html but honestly I used AI but I typed everything and I searched fro the photos on my own and debugged myself
+so thats all
+actually no I also used YouTube, a channel by Mosh Hamadani to gain Prior knowledge on HTML
+I can also use the terminal to commit but I'm on a deadline
